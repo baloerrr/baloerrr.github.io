@@ -45,3 +45,25 @@ $(window).ready(function(){
   }
 
 });
+
+let acceptButton = document.querySelector(".accept");
+let rejectButton = document.querySelector(".reject")
+
+function onReject() {
+  let top = Math.floor(Math.random() * 200) + 1;
+  let left = Math.floor(Math.random() * 100) + 1;
+
+  rejectButton.style.marginTop = top + "px";
+  rejectButton.style.marginLeft =  left + "px";
+
+}
+
+function onAccept() {
+  let link = document.querySelector("#appear");
+
+  acceptButton.style.visibility = "hidden";
+  rejectButton.style.visibility =  "hidden";
+
+  link.style.display = "block";
+}
+
