@@ -8,6 +8,7 @@ body, html {
 
 div.wrapper {
   width: 900px;
+  margin: auto;
 }
 
 div.clearfix {
@@ -64,10 +65,6 @@ div.letter-wrapper {
   /*padding: 1em;*/
 }
 
-.cursive {
-  font-size: 1.25em;
-}
-
 .letter {
   display: none;
   max-width: 100%;
@@ -121,13 +118,8 @@ p {
   margin-top: .5em;
 }
 
-.writer:before {
-  content: "Love always,\A";
-  font
-}
 
-
-.heart {
+/* .heart {
     position: absolute;
     width: 100px !important;
     height: 90px;
@@ -170,7 +162,7 @@ p {
         -ms-transform-origin: 100% 100%;
          -o-transform-origin: 100% 100%;
             transform-origin :100% 100%;
-}
+} */
 
 .button-container {
   width: 100%;
